@@ -1,0 +1,1 @@
+gameControl.init();

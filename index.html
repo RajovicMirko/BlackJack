@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="src/style/main.css">
+  <link rel="stylesheet" href="src/style/card.css">
+  <title>Blackjack</title>
+</head>
+<body>
+
+  <!-- BLACKJACK TABLE -->
+  <section id="bj-table" onselectstart="return false;">
+    
+    <!-- SCORE BOARD -->
+    <section id="score">
+      <table>
+        <thead>
+          <th>Win</th>
+          <th>Loose</th>
+          <th>Draw</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span id="win">0</span></td>
+            <td><span id="loose">0</span></td>
+            <td><span id="draw">0</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- DEALER SECTION -->
+    <section id="dealer">
+      <div class="commands">
+        <div class="chair"></div>
+        <img src="" alt="">
+      </div>
+
+      <div id="cards"></div>
+
+      <header>
+        <p class="name">House</p>
+        <p class="total">Total: <span>0</span></p>
+      </header>
+    </section>
+
+    <!-- TITLE SECTION -->
+    <section id="title">
+      <h1>Blackjack</h1>
+    </section>
+
+    <!-- PLAYER SECTION -->
+    <section id="player">
+      <div class="commands">
+        <button id="hit">Hit</button>
+        <div class="chair"></div>
+        <button id="stop">Stop</button>
+      </div>
+
+      <div id="cards"></div>
+
+      <header>
+        <p id="name">Player 1</p>
+        <p class="total">Total: <span>0</span></p>
+      </header>
+    </section>
+  </section>
+
+  <script src="src/js/player.js"></script>
+  <script src="src/js/gameMap.js"></script>
+  <script src="src/js/gameControl.js"></script>
+  <script src="app.js" async></script>
+</body>
+</html>

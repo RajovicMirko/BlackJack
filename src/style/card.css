@@ -1,0 +1,164 @@
+#cards{
+  min-height: 150px;
+  max-height: 150px;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#cards img{
+  height: 150px;
+  box-shadow: -2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+
+/* DEALER CARDS LOGIC ***********************************************************/
+#dealer #cards{
+  flex-direction: row-reverse;
+}
+
+#dealer #cards img:nth-of-type(1){
+  position: relative;
+  left: 0px;
+  z-index: -1;
+}
+
+#dealer #cards img:nth-of-type(2){
+  position: relative;
+  left: 80px;
+  z-index: -2;
+}
+
+#dealer #cards img:nth-of-type(3){
+  position: relative;
+  left: 160px;
+  z-index: -3;
+}
+
+#dealer #cards img:nth-of-type(4){
+  position: relative;
+  left: 240px;
+  z-index: -4;
+}
+
+#dealer #cards img:nth-of-type(5){
+  position: relative;
+  left: 320px;
+  z-index: -5;
+}
+
+#dealer #cards img:nth-of-type(6){
+  position: relative;
+  left: 400px;
+  z-index: -6;
+}
+
+#dealer #cards img:nth-of-type(7){
+  position: relative;
+  left: 480px;
+  z-index: -7;
+}
+
+#dealer #cards img:nth-of-type(8){
+  position: relative;
+  left: 560px;
+  z-index: -8;
+}
+
+#dealer #cards img:nth-of-type(9){
+  position: relative;
+  left: 640px;
+  z-index: -9;
+}
+
+#dealer #cards img:nth-of-type(10){
+  position: relative;
+  left: 720px;
+  z-index: -10;
+}
+
+#dealer #cards img:nth-of-type(11){
+  position: relative;
+  left: 800px;
+  z-index: -11;
+}
+
+#dealer #cards img:nth-of-type(12){
+  position: relative;
+  left: 880px;
+  z-index: -12;
+}
+
+#dealer #cards img:nth-of-type(13){
+  position: relative;
+  left: 960px;
+  z-index: -13;
+}
+
+/* PLAYER CARDS LOGIC ***********************************************************/
+#player #cards img:nth-of-type(1){
+  position: relative;
+  left: 0px;
+}
+
+#player #cards img:nth-of-type(2){
+  position: relative;
+  left: -80px;
+}
+
+#player #cards img:nth-of-type(3){
+  position: relative;
+  left: -160px;
+}
+
+#player #cards img:nth-of-type(4){
+  position: relative;
+  left: -240px;
+}
+
+#player #cards img:nth-of-type(5){
+  position: relative;
+  left: -320px;
+}
+
+#player #cards img:nth-of-type(6){
+  position: relative;
+  left: -400px;
+}
+
+#player #cards img:nth-of-type(7){
+  position: relative;
+  left: -480px;
+}
+
+#player #cards img:nth-of-type(8){
+  position: relative;
+  left: -560px;
+}
+
+#player #cards img:nth-of-type(9){
+  position: relative;
+  left: -640px;
+}
+
+#player #cards img:nth-of-type(10){
+  position: relative;
+  left: -720px;
+}
+
+#player #cards img:nth-of-type(11){
+  position: relative;
+  left: -800px;
+}
+
+#player #cards img:nth-of-type(12){
+  position: relative;
+  left: -880px;
+}
+
+#player #cards img:nth-of-type(13){
+  position: relative;
+  left: -960px;
+}
