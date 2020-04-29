@@ -1,6 +1,7 @@
 const gameControl = (function(GM){
   const dealer = new Player('House', 'dealer');
   let player = {};
+  const waitForAlertMs = 30;
   
   // INITIALIZE GAME
   function init(){
@@ -49,7 +50,7 @@ const gameControl = (function(GM){
     hand.then(playerTotal => {
       setTimeout(()=> {
         if (playerTotal > 21) return endGame(0);
-      }, 20);
+      }, waitForAlertMs);
     });
   }
   
@@ -70,7 +71,7 @@ const gameControl = (function(GM){
             clearInterval(bot);
             return calculateWinner();
           }
-        }, 20);
+        }, waitForAlertMs);
       });
     }, 1000);
   }
