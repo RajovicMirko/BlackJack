@@ -7,6 +7,14 @@ body{
   font-size: 16px;
 }
 
+a{
+  color: #808080;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
 #bj-table{
   position: relative;
   top: 100px;
