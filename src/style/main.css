@@ -7,12 +7,20 @@ body{
   font-size: 16px;
 }
 
+#git{
+  position: relative;
+  margin: 0px auto;
+  width: 150px;
+  text-align: center;
+}
+
 a{
-  color: #808080;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 a:hover{
-  color: #ffffff;
+  color: #fffb00;
 }
 
 #bj-table{
