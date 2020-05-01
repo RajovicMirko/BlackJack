@@ -7,22 +7,6 @@ body{
   font-size: 16px;
 }
 
-#git{
-  position: relative;
-  margin: 0px auto;
-  width: 150px;
-  text-align: center;
-}
-
-a{
-  color: #ffffff;
-  font-weight: 600;
-}
-
-a:hover{
-  color: #fffb00;
-}
-
 #bj-table{
   position: relative;
   top: 100px;
@@ -156,4 +140,20 @@ table{
 th, td {
   padding: 5px;
   border: 1px solid white;
+}
+
+#git{
+  position: relative;
+  margin: 0px auto;
+  width: 150px;
+  text-align: center;
+}
+
+a{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+a:hover{
+  color: #fffb00;
 }
